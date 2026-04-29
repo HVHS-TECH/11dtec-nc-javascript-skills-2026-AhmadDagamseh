@@ -7,12 +7,13 @@
  let username = "Ahmad";
  let age = "15";
  let money = "50";
+ let year = "2026";
  /*********************************
  
   main code
 
 *********************************/
-console.log("hi"+ username + "as of" + year +"you are" + age + "years old. You have " + money + "dollars");
+console.log("Hi "+ username + " as of " + year +" you are " + age + " years old. You have " + money + " dollars. ")
 
 /*********************************
  
