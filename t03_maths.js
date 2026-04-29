@@ -9,7 +9,7 @@
  let money = "50";
  let year = "2026";
  let birthYear = "2010";
- let oldAge = "age + 10";
+ let oldAge = "25;
  /*********************************
  
   main code
@@ -18,6 +18,7 @@
 console.log("Hi "+ username + " as of " + year +" you are " + age + " years old. You have " + money + " dollars. ")
 console.log("you were born in" + birthYear )
 console.log("in ten years you will be " + oldAge + age )
+console.log("you have" + money + "dollars" )
 /*********************************
  
   functions
