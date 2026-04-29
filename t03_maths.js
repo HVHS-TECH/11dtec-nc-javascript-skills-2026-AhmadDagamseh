@@ -8,6 +8,8 @@
  let age = "15";
  let money = "50";
  let year = "2026";
+ let birthyear = "2010";
+ let old age = "2026";
  /*********************************
  
   main code
