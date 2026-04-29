@@ -4,9 +4,10 @@
   console.log( "Running T1-intro.js");
   console.log( "hello world");
  //variables
- varnum1
- num2 
- answer
+ let username = "Ahmad";
+ let age = "15";
+ let money = "50";
+ let year = "2026";
  /*********************************
  
   main code
