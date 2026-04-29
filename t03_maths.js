@@ -16,12 +16,12 @@
   main code
 
 *********************************/
-console.log("Hi "+ username + " as of " + year +" you are " + age + " years old. You have " + money + " dollars. ")
-console.log("you were born in" + birthYear )
-console.log("in ten years you will be " + oldAge )
-console.log("you have" + money + "dollars" )
-console.log(" you spend half your money, you now have " + extraMoney + "dollars" )
-console.log(" You get 3 dollars, now you have" + money + "dollars" )
+console.log("Hi  "+ username + " as of " + year +" you are " + age + " years old. You have " + money + " dollars. ")
+console.log("You were born in " + birthYear )
+console.log("In ten years you will be " + oldAge )
+console.log("You have " + money + " dollars " )
+console.log("You spend half your money, you now have " + money/2 + " dollars" )
+console.log("You get 3 dollars, now you have " + extraMoney + " dollars " )
 /*********************************
  
   functions
