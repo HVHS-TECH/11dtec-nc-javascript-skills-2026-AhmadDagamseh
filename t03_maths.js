@@ -6,11 +6,11 @@
  //variables
  let username = "Ahmad";
  let age = "15";
- let money = "50";
+ let money = "20";
  let year = "2026";
  let birthYear = "2010";
  let oldAge = "25";
- let extraMoney = "28"
+ let extraMoney = "13"
  /*********************************
  
   main code
