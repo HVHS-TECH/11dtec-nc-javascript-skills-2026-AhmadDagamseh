@@ -1,7 +1,7 @@
 /* Paste/*********************************
   name of task:
 *********************************/
-  console.log("t05_JavaScript_and_HTML.js task 05...");
+  console.log("t05_JavaScript_and_HTML.js ");
 
  //variables
  let username = "Ahmad";
