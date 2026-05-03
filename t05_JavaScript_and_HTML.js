@@ -1,1 +1,3 @@
-/* Paste your code from task 3, Maths here */
+<div id="javascriptoutput">
+<p>This will be replaced</p>
+</div>
