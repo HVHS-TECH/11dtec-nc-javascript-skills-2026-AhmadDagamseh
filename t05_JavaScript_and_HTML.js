@@ -16,6 +16,9 @@
   main code
 
 *********************************/
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+
 console.log("Hi  "+ username + " as of " + year +" you are " + age + " years old. You have " + money + " dollars. ")
 console.log("You were born in " + birthYear )
 console.log("In ten years you will be " + oldAge )
