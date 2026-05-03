@@ -2,7 +2,7 @@
   name of task:
 *********************************/
   console.log( "Running T1-intro.js");
-  console.log( "hello world");
+
  //variables
  let username = "Ahmad";
  let age = "15";
