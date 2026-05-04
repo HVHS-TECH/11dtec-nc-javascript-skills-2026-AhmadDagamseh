@@ -31,3 +31,7 @@ OUTPUT.innerHTML += "<p>You get 3 dollars, now you have " + extraMoney + " dolla
   functions
 
 *********************************/
+function welcome() {
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+}
+welcome();
