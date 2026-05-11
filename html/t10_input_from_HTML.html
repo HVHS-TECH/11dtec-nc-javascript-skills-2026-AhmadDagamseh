@@ -1,39 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>T10-input from HTML</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- stylesheets *******************************************-->
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
-</head>
-
-<!--*************************************************************
-  BODY
-**************************************************************-->
-
 <body>
   <h1>T10-input from HTML</h1>
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
+  <form onsubmit="return false;">
+    <label for="nameField">Name:</label>
+    <input type="text" id="nameField" placeholder="Ahmad">
+
+    <label for="ageField">Age:</label>
+    <input type="number" id="ageField" placeholder="15">
+
+    <label for="moneyField">Money:</label>
+    <input type="number" id="moneyField" placeholder="20">
+
+    <label for="yearField">Year:</label>
+    <input type="number" id="yearField" placeholder="2026">
+
+    <input type="submit" onClick="runTask10()">
+  </form>
 
   <div id="spaceForJavaScriptOutput">
-
     The output of your script will go here.
-
   </div>
 
-
   <script src="../t10_input_from_HTML.js"></script>
-
 </body>
-
-</html>
-<!--*************************************************************
-  END OF T10_INPUT_FROM_HTML.HTML
-**************************************************************-->
