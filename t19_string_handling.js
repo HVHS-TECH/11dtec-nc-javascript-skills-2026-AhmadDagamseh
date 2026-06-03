@@ -11,5 +11,5 @@ if (nameInput.length < 3) {
 } else if (!nameInput.match(/^[A-Za-z]+$/)) {
     OUTPUT.innerHTML = " Name must contain only letters.";
 } else {
-    OUTPUT.innerHTML = "✅ Name accepted: " + nameInput;
+    OUTPUT.innerHTML = " Name accepted: " + nameInput;
 }

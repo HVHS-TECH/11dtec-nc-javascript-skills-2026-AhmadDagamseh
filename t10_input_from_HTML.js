@@ -11,7 +11,6 @@ function runTask10() {
 
   const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-  // get values from the form
   const NAME_FIELD = document.getElementById("nameField");
   const AGE_FIELD = document.getElementById("ageField");
   const MONEY_FIELD = document.getElementById("moneyField");
@@ -22,12 +21,10 @@ function runTask10() {
   let money = Number(MONEY_FIELD.value);
   let year = Number(YEAR_FIELD.value);
 
-  // calculations
   let birthYear = year - age;
   let oldAge = age + 10;
   let extraMoney = money + 3;
 
-  // output to HTML
   OUTPUT.innerHTML = "<p>Hi " + username + " as of " + year + " you are " + age + " years old. You have " + money + " dollars.</p>";
   OUTPUT.innerHTML += "<p>You were born in " + birthYear + "</p>";
   OUTPUT.innerHTML += "<p>In ten years you will be " + oldAge + "</p>";
