@@ -28,3 +28,4 @@ SHOW_BUTTON.addEventListener("click", function () {
     OUTPUT.innerHTML += shoppingList[i] + "<br>";
   }
 });
+ 
